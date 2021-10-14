@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+}
+
+
+/* ************************* NAV ************************ */
+
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  background-color:wheat;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.nav-list li {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.nav-list li :hover {
+  font-weight: bold;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color:black;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.logo :hover {
+  font-size: 80px;
+}
+
+@media screen and (min-width: 650px) {
+  .nav-list {
+    flex-direction: row;
+   
+    justify-content: space-around;
+  }
+  .nav-list li :hover {
+    font-weight: bold;
+  }
+}
+
+/* ***************************** HEADER *************************** */
+
+.hero {
+  background-image: url(/assets/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.pub {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 7em 0;
+  margin: 0 auto;
+}
+
+.pub h1 {
+  margin: 0;
+  font-size: 80px;
+  text-shadow: 5px 5px black;
+
+}
+
+/* ***************************** EVENT *************************** */
+
+.wrapper {
+  background-image: url(./assets/img/event.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  text-align: center;
+  color: white;
+}
+
+.wrapper h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 75px;
+  text-shadow: 5px 5px black;
+}
+
+.wrapper h3 {
+  font-size: 80px;
+}
+
+/* ***************************** ABOUT US *************************** */
+
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 3rem;
+  padding: 30px;
+}
+
+/* ***************************** MEET US *************************** */
+
+.meetus {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
